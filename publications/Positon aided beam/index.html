@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>João Morais</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="../../assets/css/main.css" />
+  <link rel="icon" href="../../images/coffee.jpg" type="image/png" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <noscript>
+    <link rel="stylesheet" href="../../assets/css/noscript.css" />
+  </noscript>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: false,
+      },
+    };
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <main class="publicationMain">
+      <section class="publicationArticle">
+        <a href="/" class="goback">
+          <i class="fa-solid fa-arrow-left-long"></i>
+        </a>
+        <div class="text-center">
+          <div class="italic">
+            IEEE International Conference on Communications (ICC), 2023
+          </div>
+          <div style="border-bottom: 1px solid gray; padding-bottom: 10px" class="text-[1.8rem]">
+            Position-Aided Beam Prediction in the Real World: How Useful GPS Locations Actually are?
+          </div>
+          <div id="authors" style="
+                margin-top: 2ex;
+                font-size: 1.2em;
+                flex-flow: wrap;
+                display: flex;
+                justify-content: center;
+              ">
+
+
+
+
+            <span style="
+                  font-variant: small-caps;
+                  font-size: larger;
+                  white-space: nowrap;
+                  width: fit-content;
+                  margin: 0px 2ex;
+                "><a href="http://mcrespo.me">João Morais</a><span class="super"
+                style="margin-left: 5px; white-space: nowrap"></span></span><span style="
+                  font-variant: small-caps;
+                  font-size: larger;
+                  white-space: nowrap;
+                  width: fit-content;
+                  margin: 0px 2ex;
+                "><a href="http://adolfo-munoz.com">Arash Bchboodi</a><span class="super"
+                style="margin-left: 5px; white-space: nowrap"></span></span>
+            <span style="
+                  font-variant: small-caps;
+                  font-size: larger;
+                  white-space: nowrap;
+                  width: fit-content;
+                  margin: 0px 2ex;
+                "><a href="http://mcrespo.me">Hamed Pezeshki</a><span class="super"
+                style="margin-left: 5px; white-space: nowrap"></span></span>
+            <span style="
+                  font-variant: small-caps;
+                  font-size: larger;
+                  white-space: nowrap;
+                  width: fit-content;
+                  margin: 0px 2ex;
+                "><a href="http://mcrespo.me">Ahmed Alkhateeb</a><span class="super"
+                style="margin-left: 5px; white-space: nowrap"></span></span>
+
+          </div>
+          <div class="flex gap-8 justify-center" style="margin-top: 2ex">
+            <span class="spanMobile"><span><span class="super" style="margin-right: 5px; font-size: 1"></span>
+                <span> Arizona State University, USA
+                  <br></span></span></span>
+            <span class="spanMobile"><span><span class="super" style="margin-right: 5px; font-size: 1"></span>
+                <span> </span></span></span>
+          </div>
+        </div>
+
+        <div class="resources_publication">
+          <h2>Resources</h2>
+          <a class="button_resources" href="https://arxiv.org/pdf/2205.09054"><i
+              class="button_icon fa fa-file-pdf"></i><span> Paper (7.5 MB) </span></a><a class="button_resources"
+            href="#Bibtex"><i class="button_icon fa fa-quote-right"></i><span> Cite </span></a>
+        </div>
+        <h2 id="Abstract">Abstract</h2>
+        <p style="
+              text-align: justify;
+              text-indent: 1.5rem;
+              margin: 0px 0px 0.5rem;
+            ">
+          Millimeter-wave (mmWave) communication systems rely on narrow beams to achieve sufficient receive signal
+          power. Adjusting these beams is typically associated with large training overhead, which becomes particularly
+          critical for highly-mobile applications. Beam selection can benefit from the knowledge of user positions to
+          reduce the overhead in mm Wave beam training. Prior work, however, studied this problem using only synthetic
+          data that does not accurately represent real-world measurements. In this paper, we revisit the position-aided
+          beam prediction problem in light of real-world measurements with commercial-off-the-shelf GPS to derive
+          insights into how much beam training overhead can be saved in practice. We also compare algorithms that
+          perform well in synthetic data but fail to generalize with real data, and attempt to answer what factors cause
+          inference degradation. Further, we propose a machine learning evaluation metric that better captures the end
+          communication system objective. This work aims at closing the gap between reality and simulations in
+          position-aided beam alignment.
+        </p>
+
+        <h2>image section</h2>
+        <div class="lg:columns-3 columns-2 gap-2 overflow-hidden">
+          <figure data-fancybox="gallery"
+            data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+            data-src="./gallery/1.jpg">
+            <img src="./gallery/1.jpg" alt="" class="rounded-md w-full"  loading="lazy"/>
+          </figure>
+         
+          <figure data-fancybox="gallery"
+            data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+            data-src="./gallery/2.jpg">
+            <img src="./gallery/2.jpg" alt="" class="rounded-md w-full"  loading="lazy"/>
+          </figure>
+          
+
+          <figure data-fancybox="gallery"
+          data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+          data-src="./gallery/4.jpg">
+          <img style="height: 300px;" src="./gallery/4.jpg" alt="" class="rounded-md w-full"  loading="lazy"/>
+        </figure>
+       
+         
+          
+          <figure data-fancybox="gallery"
+          data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+          data-src="./gallery/6.jpg">
+          <img src="./gallery/6.jpg" alt="" class="rounded-md w-full"  loading="lazy"/>
+        </figure>
+        <figure data-fancybox="gallery"
+          data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+          data-src="./gallery/27.jpg">
+          <img src="./gallery/27.jpg" alt="" class="rounded-md w-full"  loading="lazy"/>
+        </figure>
+      
+         
+        <figure data-fancybox="gallery"
+        data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+        data-src="./gallery/7.jpg">
+        <img src="./gallery/7.jpg" alt="" class="rounded-md w-full"  loading="lazy"/>
+      </figure>
+        </div>
+       
+        
+        <h2>
+
+
+          <!-- In this work, we present a different method based on quadrature
+            techniques whose convergence is better than stochastic methods in
+            areas with soft illumination. This method works in a deterministic
+            way using an adaptive scheme, which allows distributing the work to
+            those areas of increased difficulty (given an estimation of the
+            scene error), reducing the computation time and increasing the
+            accuracy. For this purpose, a data structure optimized for this
+            problem is used to minimize the computation time. Finally, the use
+            of a hybrid method between the stochastic approach and our proposed
+            method, which seeks to take advantage of the benefits of each one
+            while combining them, will be studied. We will integrate our
+            proposed method into the architecture of the Mitsuba renderer and
+            validate it against an established standard technique called Path
+            Tracing implemented in this software. -->
+          </p>
+          <h2 id="Figures" class="pt-8">Bibtex</h2>
+          <div class="code-container">
+            <div class="copy-btn"><i class="fa-regular fa-copy"></i></div>
+            <pre class="mb-0">
+          <code>@INPROCEEDINGS{10278998,
+            author={Morais, João and Bchboodi, Arash and Pezeshki, Hamed and Alkhateeb, Ahmed},
+            booktitle={ICC 2023 - IEEE International Conference on Communications}, 
+            title={Position-Aided Beam Prediction in the Real World: How Useful GPS Locations Actually are?}, 
+            year={2023},
+            volume={},
+            number={},
+            pages={1824-1829},
+            keywords={Training;Measurement;Neural networks;Probability;Predictive models;Prediction algorithms;Power system reliability},
+            doi={10.1109/ICC45041.2023.10278998}}
+          </code>
+          </pre>
+          </div>
+
+          <h2 id="Acknowledgements">Acknowledgements</h2>
+          <p style="
+              text-align: justify;
+              text-indent: 1.5rem;
+              margin: 0px 0px 0.5rem;
+            ">
+            This project has been developed at the
+            <a href="https://graphics.unizar.es">Graphics and Imaging Lab</a> at
+            the <a href="https://unizar.es/">University of Zaragoza</a>. I would
+            like to thank all its members, and especially Ibón, for making me
+            feel at home and for all the help provided during the months I have
+            been with them. I would especially like to thank Adolfo Muñoz, my
+            supervisor, for his expertise, support and help during the
+            completion of this work.
+          </p>
+      </section>
+
+    </main>
+  </div>
+  <!-- BG -->
+  <div id="bg" class="publications"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+
+  <script src="../../assets/js/embla-slider.js"></script>
+  <script src="../../assets/js/publication.js"></script>
+</body>
+
+</html>

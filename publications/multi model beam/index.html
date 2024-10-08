@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>João Morais</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="icon" href="../../images/coffee.jpg" type="image/png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <noscript>
+        <link rel="stylesheet" href="../../assets/css/noscript.css" />
+    </noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            corePlugins: {
+                preflight: false,
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <main class="publicationMain">
+            <section class="publicationArticle">
+                <a href="/" class="goback">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </a>
+                <div class="text-center">
+                    <div class="italic">
+                        ArXiV, 2022
+                    </div>
+                    <div style="border-bottom: 1px solid gray; padding-bottom: 10px" class="text-[1.8rem]">
+                        Multi-Modal Beam Prediction Challenge 2022: Towards Generalization
+                    </div>
+                    <div class="text-xl flex flex-wrap justify-center gap-8 px-20 py-4">
+                        <span><span>Gouranga Charan</span><span class="super"
+                                style="margin-left: 5px; white-space: nowrap"></span></span><span><a href="http://mcrespo.me">Umut Demirhan</a><span class="super"
+                                style="margin-left: 5px; white-space: nowrap"></span></span><span><a
+                                href="http://giga.cps.unizar.es/~ajarabo/">João Morais,</a><span class="super"
+                                style="margin-left: 5px; white-space: nowrap"></span></span><span><a
+                                href="https://redo-sanchez.net/">Hamed Pezeshki</a><span class="super"
+                                style="margin-left: 5px; white-space: nowrap"></span></span>
+                        <span><a href="https://redo-sanchez.net/">Ahmed Alkhateeb</a><span class="super"
+                                style="margin-left: 5px; white-space: nowrap"></span></span>
+
+                    </div>
+                    <div class="flex gap-8 justify-center" style="margin-top: 2ex">
+                        <span class="spanMobile"><span><span class="super" style="margin-right: 5px">1</span>
+                                <span> Arizona State University, USA</span></span></span><span
+                            class="spanMobile"><span><span class="super"
+                                    style="margin-right: 5px; font-size: 1"></span>
+                                <span></span></span></span>
+                    </div>
+                    <!-- <div data-fancybox="gallery"
+                        data-src="https://mcrespo.me/publications/nlos-scattering-media/figures/teaser.jpg">
+                        <img src="https://mcrespo.me/publications/nlos-scattering-media/figures/teaser.jpg" alt=""
+                            class="rounded-md w-full my-4" />
+                    </div> -->
+                </div>
+                <figcaption>
+                    <p class="italic" style="
+                text-align: justify;
+                text-justify: inter-character;
+                text-indent: 1.5rem;
+                margin: 0 0 0.5rem 0;
+              ">
+                        <!-- <strong> Scene setup: </strong> The scene is hidden behind a
+                        diffuser, with the scene being submerged in a scattering medium.
+                        <strong> Reconstructions of experimental data: </strong> Each
+                        column is a different scene. Top: images of the scenes behind the
+                        diffuser. Middle: Lindell and Wetzstein reconstructions (CDT).
+                        Bottom: our reconstructions using Phasor Fields. The higher
+                        frequency of CDT is related to the deconvolution to compensate
+                        scattering at the diffuser.
+                    </p> -->
+                </figcaption>
+                <div class="resources_publication">
+                    <h2>Resources</h2>
+                    <a class="button_resources" href="https://arxiv.org/pdf/2209.07519"><i
+                            class="button_icon fa fa-file-pdf"></i><span> <!-- -->Paper (10.5 MB)<!-- --> </span>
+                    </a>
+                    <a class="button_resources" href="#Bibtex"><i class="button_icon fa fa-quote-right"></i><span>
+                            <!-- -->Cite
+                            <!-- -->
+                        </span>
+                    </a>
+                </div>
+                <h2 id="Abstract">Abstract</h2>
+                <p style="
+              text-align: justify;
+              text-justify: inter-character;
+              text-indent: 1.5rem;
+              margin: 0 0 0.5rem 0;
+            ">
+                    Beam management is a challenging task for millimeter wave (mmWave) and sub-terahertz communication
+                    systems, especially in scenarios with highly-mobile users. Leveraging external sensing modalities
+                    such as vision, LiDAR, radar, position, or a combination of them, to address this beam management
+                    challenge has recently attracted increasing interest from both academia and industry. This is mainly
+                    motivated by the dependency of the beam direction decision on the user location and the geometry of
+                    the surrounding environment -- information that can be acquired from the sensory data. To realize
+                    the promised beam management gains, such as the significant reduction in beam alignment overhead, in
+                    practice, however, these solutions need to account for important aspects. For example, these
+                    multi-modal sensing aided beam selection approaches should be able to generalize their learning to
+                    unseen scenarios and should be able to operate in realistic dense deployments.
+                    The "Multi-Modal Beam Prediction Challenge 2022: Towards Generalization" competition is offered to
+                    provide a platform for investigating these critical questions. In order to facilitate the
+                    generalizability study, the competition offers a large-scale multi-modal dataset with co-existing
+                    communication and sensing data collected across multiple real-world locations and different times of
+                    the day. In this paper, along with the detailed descriptions of the problem statement and the
+                    development dataset, we provide a baseline solution that utilizes the user position data to predict
+                    the optimal beam indices. The objective of this challenge is to go beyond a simple feasibility study
+                    and enable necessary research in this direction, paving the way towards generalizable multi-modal
+                    sensing-aided beam management for real-world future communication systems.
+                </p>
+                <h2 id="Figures" class="py-4">Figures</h2>
+                <div class="lg:columns-3 columns-2 gap-2 overflow-hidden">
+
+                    <figure data-fancybox="gallery"
+                        data-caption="Reconstructions of experimental data. Each column is a different scene. Top: images of the scenes behind the diffuser. Middle: Lindell and Wetzstein reconstructions (CDT). Bottom: our reconstructions using Phasor Fields. The higher frequency of CDT is related to the deconvolution to compensate scattering at the diffuser."
+                        data-src="./gallery/48.jpg">
+                        <img src="./gallery/48.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+                    </figure>
+                    
+
+                    <!-- <figure data-fancybox="gallery"
+                        data-caption="Reconstruction of the SHELF scene submerged in a medium of increasing density: µt = 0 (no media), µt = 1, and µt = 1.5. In all cases, the scattering albedo is α = 0.5."
+                        data-src="https://mcrespo.me/publications/nlos-scattering-media/figures/figure5.jpg">
+                        <img src="https://mcrespo.me/publications/nlos-scattering-media/figures/figure5.jpg" alt=""
+                            class="rounded-md w-full" />
+                    </figure> -->
+              
+                    <figure data-fancybox="gallery" data-src="./gallery/52.jpg"
+                        data-caption="Simulated scenes. We use two simulated scenes: (Left) a single planar letter behind the diffuser (green), and (Right) a closed room with a shelf (red) at the back.">
+                        <img src="./gallery/52.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+                    </figure>
+
+                    <figure data-fancybox="gallery"
+                        data-caption="Reconstructions of the Z-LETTER scene in the presence of a scattering medium (µt = 1m−1 and α = 0.83 ) for increasing wavelength λ, with baseline λ0 = 4∆c and ∆c = 0.11m. Higher values of λ result into deeper penetration through the medium, at the cost of lower spatial."
+                        data-src="./gallery/53.jpg">
+                        <img src="./gallery/53.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+                    </figure>
+               
+                    <figure data-fancybox="gallery" data-src="./gallery/49.jpg"
+                        data-caption="Reconstructions of the Z-LETTER scene. a) scene with no scattering media. b) reconstructions with scattering media of varying extinction µt (in m−1) and single scattering albedo α. c) reconstructions with scattering media of fixed extinction µt = 1 m−1, varying scattering albedo α, and phase function’s anisotropy g. Phasor Fields is able to reconstruct the scene even in the presence of highly scattering media.">
+                        <img src="./gallery/49.jpg" alt="" class="rounded-md w-full h-[400px]" loading="lazy" />
+                    </figure>
+               
+                    <figure data-fancybox="gallery" data-src="./gallery/newone.jpg"
+                        data-caption="Reconstructions of the Z-LETTER scene. a) scene with no scattering media. b) reconstructions with scattering media of varying extinction µt (in m−1) and single scattering albedo α. c) reconstructions with scattering media of fixed extinction µt = 1 m−1, varying scattering albedo α, and phase function’s anisotropy g. Phasor Fields is able to reconstruct the scene even in the presence of highly scattering media.">
+                        <img src="./gallery/newone.jpg" alt="" class="rounded-md w-full" loading="lazy" />
+                    </figure>
+                </div>
+                <h2 id="Figures" class="pt-8">Bibtex</h2>
+                <div class="code-container">
+                    <div class="copy-btn"><i class="fa-regular fa-copy"></i></div>
+                    <pre>
+            <code>@misc{charan2022multimodalbeampredictionchallenge,
+                title={Multi-Modal Beam Prediction Challenge 2022: Towards Generalization}, 
+                author={Gouranga Charan and Umut Demirhan and João Morais and Arash Behboodi and Hamed Pezeshki and Ahmed Alkhateeb},
+                year={2022},
+                eprint={2209.07519},
+                archivePrefix={arXiv},
+                primaryClass={eess.SP},
+                url={https://arxiv.org/abs/2209.07519}, 
+          }</code>
+        </pre>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- BG -->
+    <div id="bg" class="publications"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script src="../../assets/js/publication.js"></script>
+    <!-- <script src="../../assets/js/main.js"></script> -->
+</body>
+
+</html>
